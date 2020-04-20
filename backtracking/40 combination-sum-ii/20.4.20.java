@@ -30,6 +30,6 @@ class Solution {
 }
 //第一次写，考虑到使用boolean数组visited 其实可以不用使用 
 //避免重复的情况 通过if(i>start && candidates[i] == candidates[i-1]) {continue;}来实现 这次循环的所有情况都是前一个相同数情况的子集 
-已经考虑过 就不用想了
+//已经考虑过 就不用想了
 //当{1，1，2}和{1，2，1}作为list中两种可以同时存在的情况时，用visited数组，反之则不需要visited数组 通过start 和i+1即可实现
 //对于int[] nums 为了避免重复的情况 建议先用sort排序
