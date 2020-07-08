@@ -19,7 +19,7 @@ class Solution {
         while(!temp.isEmpty()){
             ans[i] = temp.poll();
             i++;
-        }
+        }//注意list转array!!! 
         return ans;
     }
 }
